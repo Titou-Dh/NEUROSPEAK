@@ -17,7 +17,11 @@ module.exports = {
       colors: {
         "main":"#AA83F4",
         "main-light": "#E3D7FC",
+        "border1":"#9e9e9e7a"
       },
+      height:{
+        "sectionHeight":"calc(100vh - 4rem)",
+      }
     },
   },
   plugins: [],

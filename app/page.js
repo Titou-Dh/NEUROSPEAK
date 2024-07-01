@@ -1,6 +1,6 @@
 import Image from "next/image";
-
-
+import NavBar from "@/components/NavBar";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
@@ -15,7 +15,8 @@ export default function Home() {
         <div class="bg-main w-52 h-52 rounded-full filter blur-3xl"></div>
       </div>
       <div class="relative z-10 ">
-        
+        <NavBar />
+        <Hero />
       </div>
     </main>
   );
