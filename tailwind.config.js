@@ -17,10 +17,11 @@ module.exports = {
       colors: {
         "main":"#AA83F4",
         "main-light": "#E3D7FC",
-        "border1":"#9e9e9e7a"
+        "border1":"#9e9e9e7a",
+        "main-dark":"#6d28ec",
       },
       height:{
-        "sectionHeight":"calc(100vh - 4rem)",
+        "sectionHeight":"90vh",
       }
     },
   },

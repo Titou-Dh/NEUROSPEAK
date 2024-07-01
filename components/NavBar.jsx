@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 function NavBar() {
     return (
-        <nav class="  fixed w-full z-20 top-0 start-0 border-b  border-border1 bg-transparent">
+        <nav class="  fixed w-full z-20 top-0 start-0 border-b   border-border1 bg-transparent">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <Image src="/assets/logo.png" class="h-8" width={50} height={64} alt="Flowbite Logo"></Image>
+                    <Image src="/assets/logo.png"  width={50} height={64} alt="Flowbite Logo"></Image>
                         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Neurospeak</span>
                 </a>
                 <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -23,7 +23,7 @@ function NavBar() {
                             <a href="#" class="block py-2 px-3 text-main rounded md:bg-transparent md:p-0 md:dark:main" aria-current="page">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:main md:p-0 md:dark:hover:main dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                            <a href="#about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:main md:p-0 md:dark:hover:main dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
                         </li>
                         <li>
                             <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:main md:p-0 md:dark:hover:main dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Our Prototype</a>
