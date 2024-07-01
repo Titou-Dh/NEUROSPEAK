@@ -2,7 +2,7 @@ import Image from "next/image"
 
 function Hero() {
     return (
-        <div className="flex items-center justify-center bg-transparent mt-72 min-h-sectionHeight  p-6">
+        <div className="flex items-center justify-center bg-transparent mt-72 min-h-sectionHeight  p-6" id="hero">
             <div className=" text-white mx-auto flex flex-col md:flex-row items-center  rounded-lg overflow-hidden w-3/4">
                 <div className="p-6 md:w-3/4">
                     <h1 className="text-4xl font-bold text-main mb-4">

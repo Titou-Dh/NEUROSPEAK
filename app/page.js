@@ -3,11 +3,14 @@ import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Prototype from "@/components/Prototype";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Up from "@/components/Up";
 
 export default function Home() {
   return (
     <main className="min-h-screen overflow-x-hidden  relative ">
+      <Up />
       <div class="absolute inset-0 w-screen  -top-full flex items-center left-2/4  justify-center">
         <div class="bg-main w-96 h-52 rounded-full filter blur-3xl"></div>
       </div>
@@ -18,10 +21,12 @@ export default function Home() {
         <div class="bg-main w-52 h-52 rounded-full filter blur-3xl"></div>
       </div>
       <div class="relative z-10 ">
+
         <NavBar />
         <Hero />
         <About />
         <Prototype />
+        <Contact />
         <Footer />
       </div>
     </main>
