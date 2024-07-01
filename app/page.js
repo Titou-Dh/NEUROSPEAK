@@ -8,9 +8,18 @@ import Footer from "@/components/Footer";
 import Up from "@/components/Up";
 
 export default function Home() {
+  
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <main className="min-h-screen overflow-x-hidden  relative ">
-      <Up />
+      
       <div class="absolute inset-0 w-screen  -top-full flex items-center left-2/4  justify-center">
         <div class="bg-main w-96 h-52 rounded-full filter blur-3xl"></div>
       </div>
@@ -29,6 +38,7 @@ export default function Home() {
         <Contact />
         <Footer />
       </div>
+      <Up onClick={scrollToTop} />
     </main>
   );
 }
